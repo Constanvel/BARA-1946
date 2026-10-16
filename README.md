@@ -12,6 +12,10 @@ Phase 2 menambahkan ProximityPrompt E, surat per pemain, NPC pos pejuang, dialog
 retro Bahasa Indonesia, dan gerbang yang terbuka setelah penyerahan surat.
 Hasil pengujian serta batas penyimpanan progres ada di docs/PHASE2_RESULT.md.
 
+Phase 3 menambahkan arena dua lawan, aksi J, HP 3, HUD, Game Over, Retry,
+dan Main Menu. Gerbang keluar terbuka setelah kedua lawan dikalahkan.
+Hasil pengujian serta batas arena ada di docs/PHASE3_RESULT.md.
+
 ## Development
 
 Roblox Studio untuk map, model, environment, dan playtest. VS Code + Codex untuk
