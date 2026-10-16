@@ -3,6 +3,11 @@
 Game sejarah Indonesia dengan visual retro PS1 low-poly, dibuat memakai Roblox
 Studio dan Luau. Repository source code: https://github.com/Constanvel/BARA-1946.
 
+Phase 1 memiliki tiga area 3D terhubung, karakter R6, movement dan kamera bawaan,
+serta lighting retro. Hasil dan batas pengujian ada di docs/PHASE1_RESULT.md.
+Script pembangun yang dijalankan sekali dari MCP tersedia di tools; geometry
+tersimpan dalam file place, bukan dibangun ulang pada setiap sesi gameplay.
+
 ## Development
 
 Roblox Studio untuk map, model, environment, dan playtest. VS Code + Codex untuk
