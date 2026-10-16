@@ -1,0 +1,19 @@
+# Local place backups, Studio lock files, and machine-specific sync data
+/backups/*
+!/backups/.gitkeep
+*.rbxl
+*.rbxlx
+*.rbxl.lock
+*.rbxlx.lock
+*.lock
+*.autosave
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+/sourcemap.json
