@@ -8,6 +8,10 @@ serta lighting retro. Hasil dan batas pengujian ada di docs/PHASE1_RESULT.md.
 Script pembangun yang dijalankan sekali dari MCP tersedia di tools; geometry
 tersimpan dalam file place, bukan dibangun ulang pada setiap sesi gameplay.
 
+Phase 2 menambahkan ProximityPrompt E, surat per pemain, NPC pos pejuang, dialog
+retro Bahasa Indonesia, dan gerbang yang terbuka setelah penyerahan surat.
+Hasil pengujian serta batas penyimpanan progres ada di docs/PHASE2_RESULT.md.
+
 ## Development
 
 Roblox Studio untuk map, model, environment, dan playtest. VS Code + Codex untuk

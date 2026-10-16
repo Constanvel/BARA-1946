@@ -1,0 +1,15 @@
+-- Run in Edit or Server mode; only exercises isolated progress tables.
+local module = game:GetService("ServerScriptService").BARA:FindFirstChild("LetterProgress")
+assert(module, "Phase 2 LetterProgress has not been implemented")
+local Progress = require(module)
+local first, second = Progress.new(), Progress.new()
+assert(not Progress.deliver(first), "Delivery without a letter must fail")
+assert(Progress.collect(first), "First collection must succeed")
+assert(not Progress.collect(first), "Duplicate collection must fail")
+assert(not second.hasLetter and not second.delivered, "Players must not share progress")
+assert(Progress.deliver(first), "Delivery with a letter must succeed")
+assert(first.delivered and not first.hasLetter, "Delivery must consume the carried letter")
+assert(not Progress.deliver(first), "Duplicate delivery must fail")
+assert(not Progress.collect(first), "A delivered letter cannot be collected again")
+assert(Progress.collect(second), "Another player must still be able to collect")
+return {passed = true, checks = 9}
